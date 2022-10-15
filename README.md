@@ -8,9 +8,10 @@
 
 입력한 글자를 일정한 규칙에 따라 움직이도록 구현하는 과제이다. 
 
-### 1-2. 과제1 gif 확인
+### 1-2. 과제1 gif 내용
 
-![녹화_2022_10_15_05_10_03_158](https://user-images.githubusercontent.com/101965666/195936998-b56cd3af-c352-484a-872d-2c0cd92361bb.gif)
+![녹화_2022_10_15_11_58_15_425](https://user-images.githubusercontent.com/101965666/195965998-fc888d1a-1af1-4c5c-bd91-b4e59b68f031.gif)
+
 
 ### 1-3. 내가 구현한 모습
 
