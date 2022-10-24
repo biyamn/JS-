@@ -32,4 +32,4 @@
 
 
 ### 1-4. 구현 과정을 담은 블로그 포스팅 
-<a href=''></a>
+<a href='https://velog.io/@hamham/JS-%EC%9B%80%EC%A7%81%EC%9D%B4%EB%8A%94-%EA%B8%80%EC%9E%90-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0'>[JS] 움직이는 글자 구현하기</a>
