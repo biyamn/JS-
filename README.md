@@ -76,7 +76,7 @@
 <br>
 
 #### 2-4. 구현 과정을 담은 블로그 포스팅 
-
+<a href='https://velog.io/@hamham/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%9E%9C%EB%8D%A4%EC%88%AB%EC%9E%90%EC%99%80-%EB%9E%9C%EB%8D%A4%EC%83%89-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0'>[자바스크립트] 랜덤값 구현하기</a>
 
 <br>
 
