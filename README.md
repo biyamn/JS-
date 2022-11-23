@@ -48,7 +48,7 @@
 <br>
 
 #### 2-3. 내가 구현한 모습
-![chrome_TJfAP6W5EH](https://user-images.githubusercontent.com/101965666/203450401-c99e271d-8e83-41c6-aa5a-e3e51173cc25.gif)
+![chrome_gwrRdtYd25](https://user-images.githubusercontent.com/101965666/203450800-9e0d4227-bf18-41e9-a48f-d8af61035e1e.gif)
 
 <br>
 
