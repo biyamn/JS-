@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@unocss/reset/tailwind.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="my-5 flex justify-evenly">
+      <button id="btn-first" class="p-8 rounded-lg bg-red-300 text-xl">
+        1
+      </button>
+      <button id="btn-second" class="p-8 rounded-lg bg-green-300 text-xl">
+        2
+      </button>
+      <button id="btn-third" class="p-8 rounded-lg bg-blue-300 text-xl">
+        3
+      </button>
+    </div>
+
+    <p class="mx-auto w-fit my-4">+ <span id="showScore">0</span>점</p>
+
+    <p class="mx-auto w-fit my-4"><span id="score">0</span>점</p>
+
+    <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
