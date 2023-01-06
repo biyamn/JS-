@@ -17,14 +17,14 @@ function looper(initial, condition, task, fin) {
   }
 }
 
-//숏코딩... 재귀와 함께하는...
+// 숏코딩... 재귀와 함께하는...
 function looper(initial, condition, task, fin) {
   condition(initial)
     ? looper(task(initial), condition, task, fin)
     : fin?.(initial);
 }
 
-// 0부터 condition의 조건이 맞을 때까지 task를 돌린다.
+// 0 1 2 3 4 5 6 7 8 9
 looper(
   0,
   (val) => val < 10,
@@ -34,7 +34,7 @@ looper(
   }
 );
 
-// 0부터 condition의 조건이 맞을 때까지 task를 돌린 후 fin을 한다
+// ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
 looper(
   "ㅋ",
   (val) => val.length < 20,
