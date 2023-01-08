@@ -10,16 +10,27 @@ let shakeBox = document.querySelector('.shakeBox');
 // }
 
 // const observer = new IntersectionObserver((entries) => {
-//   for (const entry of entries) {
+//   entries.forEach(entry => {
 //     if (entry.isIntersecting) {
 //       startShake()
 //     } else {
 //       stopShake()
 //     }
-//   }
-// }, {
+//   })
+// })
+
+
+// const target = new IntersectionObserver((entries) => {
+//   entries.forEach(entry => {
+//     if (entry.isIntersecting) {
+//       startShake()
+//     } else {
+//       stopShake()
+//     }
+//   }, {
 //   rootMargin: '-250px 0px',
 //   threshold: 1
+//   })
 // })
 
 const observer = new IntersectionObserver(
