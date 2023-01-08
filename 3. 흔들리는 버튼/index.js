@@ -16,17 +16,6 @@ let shakeBox = document.querySelector('.shakeBox');
 //     } else {
 //       stopShake()
 //     }
-//   })
-// })
-
-
-// const target = new IntersectionObserver((entries) => {
-//   entries.forEach(entry => {
-//     if (entry.isIntersecting) {
-//       startShake()
-//     } else {
-//       stopShake()
-//     }
 //   }, {
 //   rootMargin: '-250px 0px',
 //   threshold: 1
@@ -42,5 +31,6 @@ const observer = new IntersectionObserver(
     threshold: 1,
   }
 );
+
 
 observer.observe(shakeBox)
