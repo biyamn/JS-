@@ -1,4 +1,4 @@
-/*
+/**
  * 초기값으로 시작해서, 지정한 조건이 참인 동안 작업을 실행하고,
  * 조건이 거짓이 되면 마무리 작업을 실행하는 함수
  *
@@ -6,7 +6,7 @@
  * @param condition 내부 변수를 입력으로 받아, 반복을 계속할지 말지를 반환하는 함수
  * @param task 내부 변수를 입력으로 받아, 작업을 실행한 후 결과를 반환하는 함수. 실행 결과는 내부 변수에 다시 대입되어야 함
  * @param fin 반복이 끝났을 때 내부 변수를 입력으로 받아 실행되는 동작, undefined일 수 있음
- */
+*/
 function looper(initial, condition, task, fin) {
   let result = initial;
   while (condition(result)) {
