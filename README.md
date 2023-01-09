@@ -116,3 +116,4 @@
 <br>
 
 #### 4-3. 구현 과정을 담은 블로그 포스팅
+<a href='https://velog.io/@hamham/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%ED%95%A8%EC%88%98-%EB%A7%8C%EB%93%A4%EA%B8%B0'>[자바스크립트] 루프 함수 만들기</a>
