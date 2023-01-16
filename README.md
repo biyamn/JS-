@@ -130,8 +130,9 @@
 <br>
 
 #### 5-2. 내가 구현한 모습
-
+![캡처](https://user-images.githubusercontent.com/101965666/212708594-28d4a603-38ac-461a-a1c9-5fec7a4f18c5.PNG)
 
 <br>
 
 #### 5-3. 구현 과정을 담은 블로그 포스팅
+<a href='https://velog.io/@hamham/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9D%B4%EC%A7%84-%ED%83%90%EC%83%89Binary-Search-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0'>[자바스크립트] 이진 탐색(Binary Search) 구현하기</a>

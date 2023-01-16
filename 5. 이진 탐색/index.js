@@ -26,26 +26,34 @@ const binarySearch = (array, value) => {
   return -1
 }
 
-const dataA = [1, 2, 3, 4, 5]
-console.log(binarySearch(dataA, 2)) // 1
+const dataA = [1, 2, 3, 4, 5];
+valueA = 2;
+console.log('array: ', dataA, 'value: ', valueA, 'result: ', binarySearch(dataA, valueA)) // 1
 
 const dataB = [1, 3, 5, 7, 9, 11, 13, 15, 17]
-console.log(binarySearch(dataB, 7)) // 3
+valueB = 7
+console.log('array: ', dataB, 'value: ', valueB, 'result: ', binarySearch(dataB, valueB)) // 3
 
 const dataC = [1, 3, 5, 7, 9, 11, 13, 15, 17]
-console.log(binarySearch(dataC, 4)) // -1
+valueC = 4
+console.log('array: ', dataC, 'value: ', valueC, 'result: ', binarySearch(dataC, valueC)) // -1
 
 const dataD = [1, 3, 5, 7, 9, 11, 13, 15, 17]
-console.log(binarySearch(dataD, 17)) // 8
+valueD = 17
+console.log('array: ', dataD, 'value: ', valueD, 'result: ', binarySearch(dataD, valueD)) // 8
 
 const dataE = [1, 3, 5, 7, 9, 11, 13, 15, 17]
-console.log(binarySearch(dataE, 1)) // 0
+valueE = 1
+console.log('array: ', dataE, 'value: ', valueE, 'result: ', binarySearch(dataE, valueE)) // 0
 
 const dataF = [1, 2]
-console.log(binarySearch(dataF, 1)) // 0
+valueF = 1
+console.log('array: ', dataF, 'value: ', valueF, 'result: ', binarySearch(dataF, valueF)) // 0
 
 const dataG = [1, 2]
-console.log(binarySearch(dataG, 2)) // 1
+valueG = 2
+console.log('array: ', dataG, 'value: ', valueG, 'result: ', binarySearch(dataG, valueG)) // 1
 
 const dataH = [1, 2, 5]
-console.log(binarySearch(dataH, 6)) // -1
+valueH = 6
+console.log('array: ', dataH, 'value: ', valueH, 'result: ', binarySearch(dataH, valueH)) // -1
