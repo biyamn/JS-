@@ -11,64 +11,19 @@
 // }
 
 const binarySearch = (array, value) => {
-  // 나 -처음
-  // let mid = Math.floor(array.length / 2);
-  // while () {
-  //   if (array[mid] === value) {
-  //     return mid;
-  //   } else if (array[mid] > value) {
-  //     mid = Math.floor(mid / 2);
-  //   } else {
-  //     mid = mid + Math.floor(mid / 2);
-  //   }
-  // }
-
-  // 나 - 중간
-  // let start = 0;
-  // let end = array.length - 1;
-  // while (start <= end) {
-  //   let mid = Math.floor((start + end) / 2);
-  //   if (array[mid] === value) {
-  //     return mid;
-  //   } else if (array[mid] > value) {
-  //     end = end - Math.floor(mid / 2);
-  //   } else {
-  //     start = Math.floor(mid / 2);
-  //   }
-  // }
-  // return -1
-// }
-
-//   // 오류가 있는 답 - 맨 앞이랑 맨 뒤를 못찾음
-//   let start = 0; 
-//   let end = array.length - 1; 
-//   while (end - start > 1) {
-//     let mid = Math.floor((end - start) / 2) + start;
-//     if (array[mid] === value) {
-//       return mid;
-//     } else if (array[mid] > value) {
-//       end = mid;
-//     } else {
-//       start = mid;
-//     }
-//   }
-//   return -1
-// }
-
-// 답 - value가 맨 앞이랑 맨 뒤여도 찾음
-let start = -1; 
-let end = array.length; 
-while (end - start > 1) {
-  let mid = Math.floor((end - start) / 2) + start;
-  if (array[mid] === value) {
-    return mid;
-  } else if (array[mid] > value) {
-    end = mid;
-  } else {
-    start = mid;
+  let start = -1; 
+  let end = array.length; 
+  while (end - start > 1) {
+    let mid = Math.floor((end - start) / 2) + start;
+    if (array[mid] === value) {
+      return mid;
+    } else if (array[mid] > value) {
+      end = mid;
+    } else {
+      start = mid;
+    }
   }
-}
-return -1
+  return -1
 }
 
 const dataA = [1, 2, 3, 4, 5]
